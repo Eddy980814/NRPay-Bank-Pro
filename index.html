@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRPay 網銀系統</title>
+</head>
+<body>
+    <h1>歡迎來到 NRPay 網銀系統</h1>
+    <form id="loginForm">
+        <input type="text" placeholder="用戶ID" id="userId" required />
+        <input type="password" placeholder="密碼" id="password" required />
+        <button type="submit">登入</button>
+    </form>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('登入成功！（模擬功能）');
+        });
+    </script>
+</body>
+</html>
